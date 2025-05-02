@@ -1,0 +1,100 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background: #343a40;
+  padding: 1.5rem;
+}
+
+.card-header h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-footer {
+  background: #f8f9fa;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.form-check-label {
+  border: 2px solid #e9ecef !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.form-check-input:checked + .form-check-label {
+  background-color: #343a40 !important;
+  color: white !important;
+  border-color: #343a40 !important;
+}
+
+.options-container .form-check {
+  transition: all 0.3s;
+}
+
+.options-container .form-check:hover {
+  transform: translateY(-3px);
+}
+
+.btn-primary {
+  background: #343a40;
+  border: none;
+  padding: 12px 35px;
+  transition: all 0.3s;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: #212529;
+}
+
+.btn-primary:disabled {
+  background: #adb5bd;
+  transform: none;
+  box-shadow: none;
+}
+
+.result-message {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.progress {
+  height: 20px !important;
+  border-radius: 50px !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.question-text h3 {
+  font-weight: 600;
+  color: #343a40;
+}
+
+h2 {
+  color: #343a40;
+  font-weight: 700;
+}
