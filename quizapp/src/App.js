@@ -20,14 +20,14 @@ function App() {
     },
     {
       id: 2,
-      text: "Which hook is used for state management in functional components?",
+      text: "What is Laravel?",
       options: [
-        "useEffect",
-        "useState",
-        "useContext",
-        "useReducer"
+        "A JavaScript library for building user interfaces",
+        "A front-end CSS framework",
+        "A PHP framework for web application development",
+        "A database management system"
       ],
-      correctAnswer: 1
+      correctAnswer: 2
     },
     {
       id: 3,
@@ -53,12 +53,12 @@ function App() {
     },
     {
       id: 5,
-      text: "What function is used to update state in React?",
+      text: "Which command is used to run a Laravel development server?",
       options: [
-        "this.changeState()",
-        "this.setState()",
-        "this.updateState()",
-        "this.modifyState()"
+        "npm start",
+        "php artisan serve",
+        "composer run",
+        "laravel run"
       ],
       correctAnswer: 1
     }
@@ -132,7 +132,7 @@ function App() {
                 {!quizStarted ? (
                   <div className="text-center p-4">
                     <h2 className="mb-4">Welcome to the TechQuest!</h2>
-                    <p className="lead mb-4">Test your knowledge about Emerging Technologies with these 5 questions.</p>
+                    <p className="lead mb-4">Test your knowledge about React & Laravel with these 5 questions.</p>
                     <button 
                       className="btn btn-primary btn-lg"
                       onClick={handleStartQuiz}
